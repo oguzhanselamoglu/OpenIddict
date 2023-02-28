@@ -52,7 +52,7 @@ namespace OpenIddict.AuthorizationServer.Controllers
                 {
                     return Redirect(TempData["returnUrl"]?.ToString());
                 }
-
+                
                 return RedirectToAction(nameof(HomeController.Index), "Home");
             }
 
